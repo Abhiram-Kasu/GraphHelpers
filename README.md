@@ -4,10 +4,10 @@ This C# project contains helper classes for working with graphs and geometry.
 
 ## Features
 
-- `Angle` - Represents an angle value with helper methods for converting between radians and degrees  
-- `AngleHelper` - Contains methods for calculating angles between vectors
-- `Lines` - Calculates angles between successive points along a line
-- `PointD` - Represents a point in 2D space using double precision
+- [`Angle`](GraphHelpers/Angle.cs) - Represents an angle value with helper methods for converting between radians and degrees  
+- [`AngleHelper`](GraphHelpers/AngleHelper.cs) - Contains methods for calculating angles between vectors
+- [`Lines`](GraphHelpers/Lines.cs) - Calculates angles between successive points along a line
+- [`PointD`](GraphHelpers/PointD.cs) - Represents a point in 2D space using double precision
 
 ## Usage
 
@@ -45,7 +45,7 @@ var sum = thirtyDeg + sixtyDeg;
 ----
 ## Classes
 
-### Angle
+### [Angle](GraphHelpers/Angle.cs)
 
 Represents an angle value in radians and degrees. Provides methods to:
 
@@ -53,15 +53,15 @@ Represents an angle value in radians and degrees. Provides methods to:
 - Convert between units  
 - Add angles together
 
-### AngleHelper
+### [AngleHelper](GraphHelpers/AngleHelper.cs)
 
 Contains the `Cos3Pnt` method to calculate the angle between 3 vectors using the cosine formula.
 
-### Lines  
+### [Lines](GraphHelpers/Lines.cs)
 
 Provides the `GetAnglesForLine` method to calculate angles between successive points along a route.
 
-### PointD
+### [PointD](GraphHelpers/PointD.cs)
 
 Represents a 2D point using double precision. Overloads operators like +, -, * for manipulating points.
 
