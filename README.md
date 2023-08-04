@@ -67,9 +67,9 @@ Represents a 2D point using double precision. Overloads operators like +, -, * f
 
 ## Installation
 
-`PM > Install-Package GraphHelpers`
-or from
-[NuGet Package Link](https://www.nuget.org/packages/GraphHelpers/)
+ - `PM > Install-Package GraphHelpers`
+ -  `dotnet add package GraphHelpers --version 1.0.0`
+ -  [NuGet Package Link](https://www.nuget.org/packages/GraphHelpers/)
 
 ## License
 
